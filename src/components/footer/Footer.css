@@ -32,6 +32,7 @@ footer {
   border-top: 2px solid lightgray;
   height: 1%;
   padding: 30px 10%;
+  background-color: white;
 }
 .nav-links {
   list-style: none;

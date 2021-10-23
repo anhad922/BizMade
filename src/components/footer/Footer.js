@@ -10,7 +10,7 @@ function Footer() {
     <div>
       <footer>
         <div className="copyright">
-          <h3>@2021 BizMade All right reserved</h3>
+          <h3>&copy;2021 BizMade All right reserved</h3>
         </div>
         <nav>
           <ul className="nav-links">
