@@ -20,6 +20,9 @@ button {
   color: #0fafe9;
   margin-right: auto;
 }
+h1 {
+  font-weight: 700;
+}
 
 header {
   display: flex;
@@ -35,8 +38,10 @@ header {
 .nav-links li {
   display: inline-block;
   padding: 0px 20px;
+  color: black;
 }
 .nav-links li a {
+  color: black;
   transition: all 0.3s ease 0s;
 }
 .nav-links li a:hover {

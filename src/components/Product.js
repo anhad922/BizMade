@@ -16,7 +16,12 @@ function Product({ product }) {
           </Card.Title>
         </Link>
 
-        <Card.Text as="h3">${product.price}</Card.Text>
+        <Card.Text
+          style={{ color: "#0fafe9", fontSize: "medium", fontWeight: "500" }}
+          as="h3"
+        >
+          &#8377;{product.price}
+        </Card.Text>
       </Card.Body>
     </Card>
   );
