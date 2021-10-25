@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import HomeScreen from "./screens/HomeScreen";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
+import ProductScreen from "./screens/ProductScreen";
 import PaymentScreen from "./screens/PaymentScreen";
 import OrderConfirmation from "./screens/OrderConfirmation";
 import DealerOrderHistory from "./screens/DealerOrderHistory";
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" component={HomeScreen} exact />
             <Route path="/login" component={Login} />
             <Route path="/register" component={Register} />
+            <Route path="/product/:id" component={ProductScreen} />
             <Route path="/cart" component={Cart} />
             <Route path="/wishlist" component={Wishlist} />
             <Route path="/payment" component={PaymentScreen} />

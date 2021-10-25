@@ -2,6 +2,7 @@ import Button from "@restart/ui/esm/Button";
 import React from "react";
 import "../styles.css";
 import { Container, Row, Col, Table, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const PaymentScreen = () => {
   return (
@@ -77,7 +78,9 @@ const PaymentScreen = () => {
                 </tr>
                 <tr className="bg-lightblue p-5">
                   <td colspan="2">
-                    <Button variant="primary">Place Order</Button>
+                    <Link to="/orderconfirmation">
+                      <Button variant="primary">Place Order</Button>
+                    </Link>
                   </td>
                 </tr>
               </tbody>
