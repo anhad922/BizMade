@@ -1,15 +1,7 @@
 import React from "react";
 import cartItems from "../cartItems";
 import { Link } from "react-router-dom";
-import {
-  Row,
-  Col,
-  ListGroup,
-  Image,
-  Form,
-  Button,
-  Card,
-} from "react-bootstrap";
+import { Row, Col, ListGroup, Image, Form, Button } from "react-bootstrap";
 
 function Wishlist() {
   return (

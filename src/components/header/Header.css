@@ -18,20 +18,22 @@ button {
 .logo {
   cursor: pointer;
   color: #0fafe9;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 h1 {
   font-weight: 700;
+  text-align: left;
 }
 
-header {
+/* header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-}
+} */
 .nav-links {
   list-style: none;
+  margin-left: auto;
   /* display: flex; */
 }
 
@@ -55,6 +57,9 @@ header {
 }
 .nav-links i {
   margin-right: 5px;
+}
+.nav-links i:hover {
+  color: #0088a9;
 }
 
 button {
