@@ -61,6 +61,12 @@ h1 {
 .nav-links i:hover {
   color: #0088a9;
 }
+.nav-link {
+  margin: auto;
+}
+.dropdown {
+  margin: auto;
+}
 
 button {
   margin-left: 20px;

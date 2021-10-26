@@ -8,6 +8,7 @@ import "./Header.css";
 import { Route } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import Search from "../Search";
 
 function Header() {
   return (
@@ -67,6 +68,7 @@ function Header() {
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
+            <Search />
             <Nav className="nav-links">
               <LinkContainer to="/wishlist">
                 <Nav.Link>
@@ -90,7 +92,7 @@ function Header() {
                 <LinkContainer to="/profile">
                   <NavDropdown.Item>Profile</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to="/orders">
+                <LinkContainer to="/dealer/orders">
                   <NavDropdown.Item>Orders</NavDropdown.Item>
                 </LinkContainer>
                 <NavDropdown.Item>Logout</NavDropdown.Item>

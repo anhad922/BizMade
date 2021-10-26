@@ -15,7 +15,12 @@ const ProductScreen = ({ match }) => {
           <h5 className="grey align-left">{product.brand}</h5>
           <ListGroup>
             <ListGroup.Item>
-              <Image src={product.image} width="300" height="600" fluid></Image>
+              <Image
+                src={product.image}
+                width="auto"
+                height="600"
+                fluid
+              ></Image>
               <Image
                 src={Heart}
                 className="heart"
@@ -26,6 +31,7 @@ const ProductScreen = ({ match }) => {
             </ListGroup.Item>
           </ListGroup>
         </Col>
+
         <Col md={6} className="p-5 float-right align-center">
           <table className="table table-borderless">
             <thead className="bg-blue white">
@@ -86,27 +92,10 @@ const ProductScreen = ({ match }) => {
       <Row className="pt-5">
         <Col md={6} className="align-left">
           <table class="table table-responsive table-borderless pt-5">
-            <thead>
-              <tr>
-                <th scope="col">Specifications</th>
-              </tr>
-            </thead>
             <tbody>
               <tr>
-                <th scope="row">Model Name</th>
-                <td>iPhone</td>
-              </tr>
-              <tr>
-                <th scope="row">Brand</th>
-                <td>Apple</td>
-              </tr>
-              <tr>
-                <th scope="row">Form Factor</th>
-                <td>Smartphone</td>
-              </tr>
-              <tr>
-                <th scope="row">Memory Storage</th>
-                <td>256 GB</td>
+                <th scope="row">Description</th>
+                <td>{product.description}</td>
               </tr>
             </tbody>
           </table>
